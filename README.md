@@ -20,7 +20,7 @@ An autonomous robotic solution designed for efficient floor cleaning, equipped w
 
 ## Introduction
 
-This project focuses on creating a robotic vacuum cleaner that can autonomously navigate an indoor environment, clean surfaces using a mop, and automatically return to a charging station when the battery is low. Utilizing ultrasonic and infrared sensors, along with SLAM and A* pathfinding algorithms, the robot detects obstacles, determines optimal cleaning paths, and ensures complete floor coverage.
+This project focuses on creating a robotic floor cleaner that can autonomously navigate an indoor environment, clean surfaces using a mop, and automatically return to a charging station when the battery is low. Utilizing ultrasonic and infrared sensors, along with SLAM and A* pathfinding algorithms, the robot detects obstacles, determines optimal cleaning paths, and ensures complete floor coverage.
 
 ---
 
