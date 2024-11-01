@@ -1,60 +1,65 @@
 # Robotic Vacuum Cleaner with Self-Charging Power Station
 
-This project involves a robotic vacuum cleaner equipped with sensors and navigation algorithms to efficiently clean rooms. It can detect obstacles, navigate using SLAM (Simultaneous Localization and Mapping) and A* pathfinding algorithms, and automatically return to its docking station for recharging.
+An autonomous robotic solution designed for efficient floor cleaning, equipped with a self-charging mechanism to return to a docking station when battery levels are low. This project integrates sensor technologies, real-time pathfinding algorithms, and efficient power management to provide a fully autonomous floor-cleaning experience.
 
 ---
 
 ## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Hardware Requirements](#hardware-requirements)
-- [Software Requirements](#software-requirements)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Hardware Components](#hardware-components)
+4. [Software Components](#software-components)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Project Structure](#project-structure)
+8. [Contributing](#contributing)
+9. [Acknowledgments](#acknowledgments)
 
 ---
 
-## Overview
+## Introduction
 
-The robotic vacuum cleaner is designed to autonomously clean a designated area without human intervention. Utilizing various sensors, the robot navigates around obstacles, detects floor levels, and maps its surroundings. When the battery is low, it automatically returns to the charging station to recharge before resuming cleaning.
+This project focuses on creating a robotic vacuum cleaner that can autonomously navigate an indoor environment, clean surfaces using a mop, and automatically return to a charging station when the battery is low. Utilizing ultrasonic and infrared sensors, along with SLAM and A* pathfinding algorithms, the robot detects obstacles, determines optimal cleaning paths, and ensures complete floor coverage.
 
 ---
 
 ## Features
 
-- **Autonomous Navigation**: Utilizes SLAM for mapping and A* algorithm for pathfinding.
-- **Obstacle Detection**: Equipped with ultrasonic and infrared sensors to avoid obstacles.
-- **Self-Charging**: Automatically returns to its docking station when the battery is low.
+- **Autonomous Navigation**: Self-guided movement with real-time obstacle avoidance.
+- **Self-Charging Mechanism**: Automatically returns to the charging dock when battery levels are low.
+- **Efficient Cleaning Coverage**: Uses SLAM and A* algorithms for optimized pathfinding and cleaning coverage.
+- **Sensor-Based Safety**: Equipped with ultrasonic and infrared sensors to detect obstacles and avoid falls.
 - **Mopping Capability**: Cleans floors effectively using a mop attachment.
-- **Remote Control & Monitoring**: Capable of connecting to the internet for remote control and status updates.
+- **Battery Management**: Power-efficient operations and low-battery detection to preserve energy.
 
 ---
 
-## Hardware Requirements
+## Hardware Components
 
-- **Robot Chassis** with motors (BLDC preferred for efficiency)
-- **Ultrasonic Sensors** for obstacle detection
-- **Infrared Sensors** for floor-level detection
-- **Battery**: 7.4V Li-ion battery with BMS (Battery Management System)
-- **Docking Station**: Equipped for automatic charging
-- **Microcontroller**: ESP8266 or similar for control and communication
-- **Additional Components**: DFPlayer Mini for sound alerts, wheel encoders (if precise movement is required)
+- **Microcontroller**: ESP8266
+- **Motors**: Brushless DC (BLDC) motors for movement
+- **Sensors**:
+  - Ultrasonic sensors for obstacle detection
+  - Infrared sensors for floor-level detection
+- **Battery**: 7.4V Li-ion battery with Battery Management System (BMS)
+- **Other Components**:
+  - Docking station for automatic charging
+  - DFPlayer Mini for audio signals (optional)
 
 ---
 
-## Software Requirements
+## Software Components
 
-- **Programming Language**: Python for algorithm development
-- **Development Tools**: Visual Studio Code, MicroVision, Proteus for simulation
-- **Libraries**:
-  - `pandas`, `NumPy`, `Matplotlib` (for data analysis and debugging)
-  - Microcontroller SDK for ESP8266
-  - SLAM and A* pathfinding libraries
+- **Programming Language**: Python
+- **Algorithms**:
+  - **SLAM (Simultaneous Localization and Mapping)**: For mapping the environment and determining the robot’s position.
+  - **A* Pathfinding Algorithm**: For finding the shortest and most efficient path to the docking station.
+- **Development Tools**:
+  - Visual Studio Code
+  - MATLAB for sensor simulation (optional)
+  - MicroVision for microcontroller programming
+  - Proteus for circuit simulation
 
 ---
 
@@ -120,12 +125,6 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes: `git commit -m 'Add feature-name'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
