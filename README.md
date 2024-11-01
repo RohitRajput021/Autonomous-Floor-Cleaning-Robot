@@ -113,9 +113,30 @@ To effectively use the Robotic Vacuum Cleaner, follow these steps:
 
 ## How It Works
 
-- **Navigation**: The robot uses SLAM to create a map of the environment, and the A* algorithm helps it find the shortest path to clean and return to the docking station.
-- **Obstacle Detection**: Ultrasonic and infrared sensors help detect obstacles and adjust the path.
-- **Self-Charging**: Using the location data from SLAM, the robot can find its way back to the docking station when the battery is low.
+The robotic vacuum cleaner operates through a combination of hardware components and software algorithms that work together to provide an efficient cleaning experience. Below is an overview of the key processes involved in its operation:
+
+1. **Initialization**:
+   - When powered on, the robot performs a self-check to ensure all components are functioning properly. It initializes the sensors and motors and prepares for navigation.
+
+2. **Environment Mapping**:
+   - The robot uses the SLAM (Simultaneous Localization and Mapping) algorithm to create a map of the environment as it moves. The ultrasonic and infrared sensors detect obstacles and measure distances, allowing the robot to build a spatial representation of the area it needs to clean.
+
+3. **Obstacle Detection and Navigation**:
+   - The ultrasonic sensors continuously scan the environment to detect obstacles in real-time. When an obstacle is detected, the robot employs the A* pathfinding algorithm to calculate an optimal route around the obstacle, ensuring it can navigate efficiently without getting stuck.
+
+4. **Cleaning Process**:
+   - The robot uses a mop attachment to clean floors as it navigates. Water or cleaning solution is distributed onto the mop to ensure effective cleaning. The robot adjusts its speed and movement patterns based on the detected floor type to optimize cleaning efficiency.
+
+5. **Power Management**:
+   - The robot monitors its battery levels throughout the cleaning process. When the battery reaches a predefined low level, the robot ceases cleaning operations and initiates the self-docking process.
+
+6. **Self-Docking**:
+   - Using the A* algorithm, the robot calculates the best path back to the docking station. It navigates back, avoiding obstacles along the way. Once it reaches the docking station, the robot connects to the charger and begins recharging its battery.
+
+7. **User Interaction**:
+   - Users can start or stop the cleaning process manually using a remote control or companion app (if developed). The app can also provide real-time status updates and control options for the robot.
+
+By combining advanced sensor technology, intelligent algorithms, and efficient power management, this robotic vacuum cleaner is designed to provide a hassle-free cleaning experience, maintaining clean floors autonomously.
 
 ---
 
