@@ -88,15 +88,26 @@ This project focuses on creating a robotic floor cleaner that can autonomously n
 
 ## Usage
 
-1. **Starting the Robot**:
-   - Place the robot on the floor in the desired cleaning area.
-   - Power it on and initialize its connection to the gateway for remote control if necessary.
+To effectively use the Robotic Vacuum Cleaner, follow these steps:
 
-2. **Automatic Cleaning**:
-   - The robot will begin cleaning and avoiding obstacles autonomously.
+1. **Power On**:
+   - Ensure the robot is fully charged. 
+   - Turn on the robot using the power switch located on the main body.
+   - Place the robot in the designated cleaning area, ensuring it has enough space to maneuver.
 
-3. **Self-Charging**:
-   - When the battery is low, the robot will navigate back to the docking station for charging.
+2. **Start Cleaning**:
+   - Once powered on, the robot will automatically begin its cleaning routine.
+   - It will navigate through the designated area, utilizing its sensors to avoid obstacles and cover the floor efficiently.
+
+3. **Automatic Docking**:
+   - The robot is equipped with a low-battery detection feature. 
+   - When battery levels drop to a certain threshold, the robot will halt its cleaning process and autonomously navigate back to the charging dock.
+   - The A* pathfinding algorithm ensures the robot takes the most efficient route to the dock, minimizing time and energy consumption.
+
+4. **Manual Override (if applicable)**:
+   - If you wish to take control of the robot during its cleaning cycle, you can use the remote control or companion app (if developed).
+   - The manual control option allows you to steer the robot, pause its operation, or send it to specific areas for targeted cleaning.
+   - Additionally, the app can provide real-time status updates and monitoring of the robot's cleaning progress.
 
 ---
 
