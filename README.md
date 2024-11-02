@@ -181,6 +181,20 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
+## Acknowledgments
+
+This project was inspired by the continuous advancements in robotics and autonomous navigation technologies. Special thanks to the open-source community for providing tools, libraries, and resources that facilitated the development of this robotic vacuum cleaner. 
+
+We would like to acknowledge the following resources and communities that contributed to the project:
+
+- **Open Source Libraries**: Key Python libraries and tools such as NumPy, matplotlib, and SLAM algorithms that made development easier.
+- **Robotics Community Forums**: The community's knowledge sharing on hardware, sensors, and embedded systems helped overcome many challenges.
+- **Educational Resources**: Online courses, tutorials, and documentation that provided a foundation for understanding robotics and pathfinding algorithms.
+- **Contributors**: Everyone who contributed to the code, design, testing, and documentation of this project.
+
+Thank you for your support and guidance!
+
+
 ## Contact
 
 For inquiries or feedback, please contact:
