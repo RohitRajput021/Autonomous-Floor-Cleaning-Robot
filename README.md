@@ -51,9 +51,17 @@ This project focuses on creating a robotic floor cleaner that can autonomously n
 
 ---
 
-## Circuit Diagram
+### Circuit Diagram
+The following connections enable the project setup for the Autonomous Floor Cleaning Robot:
 
-![Circuit Diagram](https://github.com/RohitRajput021/Autonomous-Floor-Cleaning-Robot/raw/main/Circuit%20Diagram.pdf)
+- **Microcontroller (ESP8266)**: Manages the control system, communicating with sensors, motors, and the charging dock.
+- **Ultrasonic Sensors**: Connected to designated GPIO pins for real-time obstacle detection and navigation.
+- **Infrared Sensors**: Connected to monitor floor level and prevent falls.
+- **Brushless DC Motors (BLDC)**: Controlled via motor driver, connected to provide smooth and adjustable movement.
+- **Battery Management System (BMS)**: Monitors battery levels and manages charging cycles.
+- **Docking Station**: Interacts with the robot to facilitate self-charging when battery levels are low.
+
+![Circuit Diagram](./Circuit%20Diagram.jpg)
 
 ---
 ## Software Components
