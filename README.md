@@ -131,7 +131,7 @@ Robotic-Vacuum-Cleaner/
 │   ├── test_navigation.py      # Unit tests for navigation algorithms
 ├── LICENSE                     # License information (optional)
 └── README.md                   # Project README file
-
+```
 ## How It Works
 
 The robotic vacuum cleaner operates through a combination of hardware components and software algorithms that work together to provide an efficient cleaning experience. Below is an overview of the key processes involved in its operation:
