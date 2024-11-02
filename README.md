@@ -166,7 +166,6 @@ For inquiries or feedback, please contact:
 
 - **Name**: Rohit Rajput
 - **Email**: iamrohitrajput21@gmail.com
-- **Phone**: +91 75177 13810
 - **GitHub**: [RohitRajput021](https://github.com/RohitRajput021)
 - **LinkedIn**: [rajputrohit21](https://www.linkedin.com/in/rajputrohit21)
 
