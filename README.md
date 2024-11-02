@@ -114,6 +114,21 @@ To effectively use the Robotic Vacuum Cleaner, follow these steps:
 
 ## Project Structure
 
+Robotic-Vacuum-Cleaner/
+├── code/
+│   ├── main.py                 # Main control script for the robot
+│   ├── sensors.py              # Sensor integration and data processing
+│   ├── navigation.py           # SLAM and A* pathfinding algorithm
+│   ├── power_management.py     # Battery monitoring and power management
+├── docs/
+│   ├── wiring_diagram.png      # Wiring diagram for hardware setup
+│   ├── component_list.md       # Detailed component list and specifications
+├── tests/
+│   ├── test_sensors.py         # Unit tests for sensors
+│   ├── test_navigation.py      # Unit tests for navigation algorithms
+├── LICENSE                     # License information (optional)
+└── README.md                   # Project README file
+
 ## How It Works
 
 The robotic vacuum cleaner operates through a combination of hardware components and software algorithms that work together to provide an efficient cleaning experience. Below is an overview of the key processes involved in its operation:
