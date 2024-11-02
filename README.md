@@ -114,6 +114,9 @@ To effectively use the Robotic Vacuum Cleaner, follow these steps:
 
 ## Project Structure
 
+Below is the project structure that organizes the code, documentation, and testing files for ease of understanding and development:
+
+```plaintext
 Robotic-Vacuum-Cleaner/
 ├── code/
 │   ├── main.py                 # Main control script for the robot
