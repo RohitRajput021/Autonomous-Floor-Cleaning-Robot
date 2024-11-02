@@ -111,6 +111,9 @@ To effectively use the Robotic Vacuum Cleaner, follow these steps:
 
 ---
 
+
+## Project Structure
+
 ## How It Works
 
 The robotic vacuum cleaner operates through a combination of hardware components and software algorithms that work together to provide an efficient cleaning experience. Below is an overview of the key processes involved in its operation:
