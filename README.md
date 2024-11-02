@@ -61,7 +61,8 @@ The following connections enable the project setup for the Autonomous Floor Clea
 - **Battery Management System (BMS)**: Monitors battery levels and manages charging cycles.
 - **Docking Station**: Interacts with the robot to facilitate self-charging when battery levels are low.
 
-![Circuit Diagram](./Circuit%20Diagram.jpg)
+![Circuit Diagram](./Circuit_Diagram.jpg)
+
 
 ---
 ## Software Components
