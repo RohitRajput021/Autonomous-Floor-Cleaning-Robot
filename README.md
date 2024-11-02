@@ -55,10 +55,6 @@ This project focuses on creating a robotic floor cleaner that can autonomously n
 
 ![Circuit Diagram](https://github.com/RohitRajput021/Autonomous-Floor-Cleaning-Robot/raw/main/Circuit%20Diagram.pdf)
 
-![Robot Screenshot](https://github.com/RohitRajput021/Autonomous-Floor-Cleaning-Robot/raw/main/path/to/Screenshot%202024-11-02%20112055.png)
-
-
-
 ---
 ## Software Components
 
