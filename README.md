@@ -1,4 +1,4 @@
-# Robotic Vacuum Cleaner with Self-Charging Power Station
+# Autonomous Floor Cleaning Robot with Self-Charging Power Station
 
 An autonomous robotic solution designed for efficient floor cleaning, equipped with a self-charging mechanism to return to a docking station when battery levels are low. This project integrates sensor technologies, real-time pathfinding algorithms, and efficient power management to provide a fully autonomous floor-cleaning experience.
 
