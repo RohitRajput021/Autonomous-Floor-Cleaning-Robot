@@ -47,6 +47,8 @@ This project focuses on creating a robotic floor cleaner that can autonomously n
 - **Other Components**:
   - Docking station for automatic charging
   - DFPlayer Mini for audio signals (optional)
+![Circuit Diagram](Circuit%20Diagram.pdf)
+
 
 
 ---
