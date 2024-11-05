@@ -105,7 +105,7 @@ The following connections enable the project setup for the Autonomous Floor Clea
 
 ## Usage
 
-To effectively use the Robotic Vacuum Cleaner, follow these steps:
+To effectively use the Robotic floor Cleaner, follow these steps:
 
 1. **Power On**:
    - Ensure the robot is fully charged.
@@ -129,7 +129,7 @@ To effectively use the Robotic Vacuum Cleaner, follow these steps:
 Below is the project structure that organizes the code, documentation, and testing files for ease of understanding and development:
 
 ```plaintext
-Robotic-Vacuum-Cleaner/
+Robotic-floor-Cleaner/
 ├── code/
 │   ├── main.py                 # Main control script for the robot
 │   ├── sensors.py              # Sensor integration and data processing
@@ -146,7 +146,7 @@ Robotic-Vacuum-Cleaner/
 ```
 ## How It Works
 
-The robotic vacuum cleaner operates through a combination of hardware components and software algorithms that work together to provide an efficient cleaning experience. Below is an overview of the key processes involved in its operation:
+The robotic floor cleaner operates through a combination of hardware components and software algorithms that work together to provide an efficient cleaning experience. Below is an overview of the key processes involved in its operation:
 
 1. **Initialization**:
    - When powered on, the robot performs a self-check to ensure all components are functioning properly. It initializes the sensors and motors and prepares for navigation.
@@ -169,7 +169,7 @@ The robotic vacuum cleaner operates through a combination of hardware components
 7. **User Interaction**:
    - Users can start or stop the cleaning process manually using a remote control or companion app (if developed). The app can also provide real-time status updates and control options for the robot.
 
-By combining advanced sensor technology, intelligent algorithms, and efficient power management, this robotic vacuum cleaner is designed to provide a hassle-free cleaning experience, maintaining clean floors autonomously.
+By combining advanced sensor technology, intelligent algorithms, and efficient power management, this robotic floor cleaner is designed to provide a hassle-free cleaning experience, maintaining clean floors autonomously.
 
 ---
 
@@ -195,7 +195,7 @@ Contributions are welcome! Please follow these steps:
 
 ## Acknowledgments
 
-This project was inspired by the continuous advancements in robotics and autonomous navigation technologies. Special thanks to the open-source community for providing tools, libraries, and resources that facilitated the development of this robotic vacuum cleaner. 
+This project was inspired by the continuous advancements in robotics and autonomous navigation technologies. Special thanks to the open-source community for providing tools, libraries, and resources that facilitated the development of this robotic floor cleaner. 
 
 We would like to acknowledge the following resources and communities that contributed to the project:
 
